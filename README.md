@@ -1,42 +1,42 @@
 # SPIN
 
-SPIN is a Dev' board specialized for power applications. 
+SPIN is a dev' board specialized for power applications. 
 SPIN has it's dedicated firmware that is meant to be super intuitive and simple to use. 
 
-![Spin Pinout](Images/SPIN_pinout.png)
+![Spin Pinout](Images/pinout_spin_v1.1.0.png)
 
 ## Simple to use
 
 * Native USB support
-* OwnPlot compatible ! Graphical interface to monitore the application.
+* OwnPlot compatible! Graphical interface to monitor the application.
 * Verbose mode available
 * Debug friendly
 
 ## Fast and precise PWM
 
-* 10 PWM signals ready to deploy !
+* 10 PWM signals ready to deploy!
 * Up to 55MHz PWM frequency
 * Up to 184ps temporal resolution
 * Center-aligned modulation support
 * Advanced phase shifting options
-* Multiple SPIN synchronisation support
+* Multiple SPIN synchronization support
 * Dead-time support
 
 
 
 ## Seamless measurement acquisition
 
-* 6 ADC channels 12bits ready to go!
+* 6 ADC channels 12 bits ready to go!
 * 60kHz acquisition rate.
-* Synchronized with the PWM generators to place the measurements in time acurately.
-* Non blocking acquisition system.
+* Synchronized with the PWM generators to place the measurements in time accurately.
+Nonblocking acquisition system.
 
 ## Floating point unit support
 
 * Fast intuitive computation
 * Support of optimized math functions from ARM libraries
 
-## Real Time advanced control laws
+## Real-Time advanced control laws
 
 * Configurable Control Frequency.
 * Voltage Mode
@@ -45,7 +45,7 @@ SPIN has it's dedicated firmware that is meant to be super intuitive and simple 
 ## IoT ready
 
 * Ready for Over the Air (OTA) update
-* Compatible with cloud based monitoring
+* Compatible with cloud-based monitoring
 
 
 ![Hands On SPIN](Images/SPIN_Board.png)
@@ -61,30 +61,30 @@ The repository has the following organization
 
 * Datasheet 	Contains all the datasheet of main components and integrated circuits used in the design
 * Images 	Contains the images of the Readme
-* KiCAD_files	Contains the KiCAD project, for this converter two separated .pro files contains the two different pcb that compose the power converter. 
+* KiCAD_files	Contains the KiCad project, for this converter two separated .pro files contain the two different PCB that compose the power converter. 
 * libs  
-   * footprints.pretty Contains the project specific footprints
-      * footprints.3Dshapes contains the step files for project specific 3D footprints. 
+   * footprints.pretty Contains the project-specific footprints
+      * footprints.3Dshapes contains the step files for project-specific 3D footprints. 
 * License 	Contains the pdf file of the CERN-OHL-S open hardware license
-* Logo 		Contains the .png images of the logo used for title block
+* Logo 		Contains the .png images of the logo used for the title block
 * Manufacturing_files
    * Definition_Package_MCUSPIN Contains the definition package for manufacturing
    
 # Documentation 
 
 All files are available in this centralized repository. 
-Manufacturing files, including gerbers and BOM are placed in Manufacturing files folder.
-Editable design files are placed in Kicad Files folder. 
+Manufacturing files, including gerbers and BOM are placed in the Manufacturing files folder.
+Editable design files are placed in KiCad Files folder. 
 
 More documentation is available at [docs.owntech.org](http://docs.owntech.org/) 
 
 # Contribute 
 
-You are very welcome as a contributor ! You can contribute by : 
+You are very welcome as a contributor! You can contribute by : 
 - Opening issues if you find some 
 - Propose enhancements and new features 
 - Join our [Discord](https://discord.gg/KAM8ukUYF5) channel
-- Submit Pull Request (Please get in touch first so that we can coordinate as GIT and hardware is a bit tricky!)
+- Submit Pull Request (Please get in touch first so that we can coordinate as GIT and hardware synergy is a bit tricky!)
 
 # License 
 
@@ -93,8 +93,8 @@ The documentation provided is placed under Creative Commons SA-BY
 
 # Disclaimer 
 
-DISCLAIMER : This power converter is currently in alpha version (V1.2) and OwnTech team 
-does not provide garranty of any kind.
+DISCLAIMER: This power converter is currently in alpha version (V1.2) and OwnTech team 
+does not provide guarantees of any kind.
 
 
      * * * * * * * * * * * * * * * * * * * * * * * * * * * *
